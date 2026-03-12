@@ -21,7 +21,7 @@
 
 - **数据集**：[Lending Club Loan Data (Kaggle)](https://www.kaggle.com/datasets/adarshsng/lending-club-loan-data-csv)
 - **背景**：Lending Club 是美国 P2P 借贷平台，撮合投资者与借款人：投资者出资，借款人还款（本金+利息）回流投资者；借款人通常获得较低利率，投资者获得收益。
-- **内容**：2007–2015 年通过 Lending Club 发放的**全量贷款**记录，包含当前贷款状态（Current、Late、Fully Paid 等）、最近还款信息；特征包括信用评分、征信查询次数、地址（邮编、州）、collections（是否曾逾期并由团队催收）等。原始数据约 **89 万条观测（代码中仅使用前20万条）、75 个变量**。
+- **内容**：2007–2018 年通过 Lending Club 发放的**全量贷款**记录，包含当前贷款状态（Current、Late、Fully Paid 等）、最近还款信息；特征包括信用评分、征信查询次数、地址（邮编、州）、collections（是否曾逾期并由团队催收）等。原始数据约 **89 万条观测（代码中仅使用前20万条）、75 个变量**。
 - **本项目**：使用上述数据集的子集（如 `loan_sample_100m.csv`，约 20 万行），经清洗后得到 `loan_clean.csv` 用于分析。
 
 ### 清洗与产出
